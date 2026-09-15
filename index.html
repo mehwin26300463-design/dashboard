@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <span>✦</span> MEHWIN
+            </div>
+
+            <nav>
+                <a href="#" class="active">
+                    🏠 <span>Dashboard</span>
+                </a>
+
+                <a href="#">
+                    📊 <span>Analytics</span>
+                </a>
+
+                <a href="#">
+                    📁 <span>Projects</span>
+                </a>
+
+                <a href="#">
+                    👥 <span>Team</span>
+                </a>
+
+                <a href="#">
+                    💬 <span>Messages</span>
+                </a>
+
+                <a href="#">
+                    ⚙️ <span>Settings</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="help">
+                    <div class="help-icon">?</div>
+                    <div>
+                        <strong>Need Help?</strong>
+                        <small>Contact support</small>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+
+            <!-- TOP BAR -->
+            <header class="topbar">
+
+                <div>
+                    <h1>Good Morning, Mehwin 👋</h1>
+                    <p>Here's what's happening with your dashboard today.</p>
+                </div>
+
+                <div class="top-actions">
+
+                    <div class="search">
+                        🔍
+                        <input type="text" placeholder="Search...">
+                    </div>
+
+                    <button class="notification">
+                        🔔
+                    </button>
+
+                    <div class="profile">
+                        <div class="avatar">M</div>
+
+                        <div>
+                            <strong>Mehwin</strong>
+                            <small>Admin</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- STAT CARDS -->
+            <section class="cards">
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Total Projects</span>
+                        <div class="card-icon purple">📁</div>
+                    </div>
+
+                    <h2>24</h2>
+
+                    <p class="increase">
+                        ↑ 12.5% <span>from last month</span>
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Team Members</span>
+                        <div class="card-icon blue">👥</div>
+                    </div>
+
+                    <h2>48</h2>
+
+                    <p class="increase">
+                        ↑ 8.2% <span>from last month</span>
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Tasks Completed</span>
+                        <div class="card-icon green">✓</div>
+                    </div>
+
+                    <h2>186</h2>
+
+                    <p class="increase">
+                        ↑ 18.7% <span>from last month</span>
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Revenue</span>
+                        <div class="card-icon orange">₹</div>
+                    </div>
+
+                    <h2>₹84,250</h2>
+
+                    <p class="increase">
+                        ↑ 10.4% <span>from last month</span>
+                    </p>
+                </div>
+
+            </section>
+
+
+            <!-- CONTENT GRID -->
+            <section class="content-grid">
+
+                <!-- CHART -->
+                <div class="panel chart-panel">
+
+                    <div class="panel-header">
+                        <div>
+                            <h2>Project Overview</h2>
+                            <p>Project activity over the last 7 months</p>
+                        </div>
+
+                        <select>
+                            <option>Last 7 months</option>
+                            <option>Last 30 days</option>
+                            <option>This year</option>
+                        </select>
+                    </div>
+
+
+                    <div class="chart">
+
+                        <div class="y-axis">
+                            <span>100</span>
+                            <span>80</span>
+                            <span>60</span>
+                            <span>40</span>
+                            <span>20</span>
+                            <span>0</span>
+                        </div>
+
+                        <div class="graph">
+
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                            <div class="line line4"></div>
+                            <div class="line line5"></div>
+
+                            <div class="bars">
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:45%"></div>
+                                    <span>Jan</span>
+                                </div>
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:60%"></div>
+                                    <span>Feb</span>
+                                </div>
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:52%"></div>
+                                    <span>Mar</span>
+                                </div>
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:75%"></div>
+                                    <span>Apr</span>
+                                </div>
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:65%"></div>
+                                    <span>May</span>
+                                </div>
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:85%"></div>
+                                    <span>Jun</span>
+                                </div>
+
+                                <div class="bar-container">
+                                    <div class="bar" style="height:92%"></div>
+                                    <span>Jul</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACTIVITY -->
+                <div class="panel activity-panel">
+
+                    <div class="panel-header">
+                        <div>
+                            <h2>Recent Activity</h2>
+                            <p>Latest updates</p>
+                        </div>
+
+                        <a href="#">View all</a>
+                    </div>
+
+
+                    <div class="activity">
+
+                        <div class="activity-item">
+                            <div class="activity-icon purple">📁</div>
+
+                            <div>
+                                <strong>New project created</strong>
+                                <p>Website Redesign</p>
+                                <small>10 minutes ago</small>
+                            </div>
+                        </div>
+
+
+                        <div class="activity-item">
+                            <div class="activity-icon green">✓</div>
+
+                            <div>
+                                <strong>Task completed</strong>
+                                <p>Homepage design finished</p>
+                                <small>1 hour ago</small>
+                            </div>
+                        </div>
+
+
+                        <div class="activity-item">
+                            <div class="activity-icon blue">👤</div>
+
+                            <div>
+                                <strong>New team member</strong>
+                                <p>Sarah joined the team</p>
+                                <small>3 hours ago</small>
+                            </div>
+                        </div>
+
+
+                        <div class="activity-item">
+                            <div class="activity-icon orange">💬</div>
+
+                            <div>
+                                <strong>New message</strong>
+                                <p>You received a message</p>
+                                <small>5 hours ago</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- TABLE -->
+            <section class="panel projects-panel">
+
+                <div class="panel-header">
+                    <div>
+                        <h2>Recent Projects</h2>
+                        <p>Manage your latest projects</p>
+                    </div>
+
+                    <button class="add-button">+ Add Project</button>
+                </div>
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>PROJECT</th>
+                                <th>TEAM</th>
+                                <th>STATUS</th>
+                                <th>PROGRESS</th>
+                                <th>DUE DATE</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <strong>Website Redesign</strong>
+                                    <small>Web Development</small>
+                                </td>
+
+                                <td>👩🏻‍💻 👨🏻‍💻 👩🏻‍💻</td>
+
+                                <td>
+                                    <span class="status progress">In Progress</span>
+                                </td>
+
+                                <td>
+                                    <div class="progress-box">
+                                        <div class="progress-bar">
+                                            <div style="width:75%"></div>
+                                        </div>
+                                        <span>75%</span>
+                                    </div>
+                                </td>
+
+                                <td>Aug 25, 2026</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <strong>Mobile App</strong>
+                                    <small>App Development</small>
+                                </td>
+
+                                <td>👩🏻‍💻 👨🏻‍💻</td>
+
+                                <td>
+                                    <span class="status completed">Completed</span>
+                                </td>
+
+                                <td>
+                                    <div class="progress-box">
+                                        <div class="progress-bar">
+                                            <div style="width:100%"></div>
+                                        </div>
+                                        <span>100%</span>
+                                    </div>
+                                </td>
+
+                                <td>Aug 18, 2026</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <strong>Marketing Campaign</strong>
+                                    <small>Marketing</small>
+                                </td>
+
+                                <td>👩🏻‍💻 👨🏻‍💻 👩🏻‍💻</td>
+
+                                <td>
+                                    <span class="status pending">Pending</span>
+                                </td>
+
+                                <td>
+                                    <div class="progress-box">
+                                        <div class="progress-bar">
+                                            <div style="width:30%"></div>
+                                        </div>
+                                        <span>30%</span>
+                                    </div>
+                                </td>
+
+                                <td>Sep 02, 2026</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
